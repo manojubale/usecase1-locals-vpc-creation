@@ -8,7 +8,7 @@ locals {
   }
 }
 
-resource "aws_vpc" "this" {
+resource "aws_vpc" "school_dev_vpc" {
   cidr_block = "10.30.0.0/16"
   tags       = local.vpc_tags
 }
